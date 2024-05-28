@@ -11,3 +11,15 @@ function drawTriangle(rows) {
 
 // Test the function
 drawTriangle(10);
+
+
+function drawTriangle(height) {
+    for(let i = 1; i <= height; i++) {
+        let row = "";
+        for(let j = 1; j <= i; j++){
+            row +=j;
+        }
+        console.log(row);
+    }
+}
+drawTriangle(10);
