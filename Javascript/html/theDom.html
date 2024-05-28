@@ -1,3 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <title> Darken image</title>
+    <style>
+        .darken-image {
+            filter: brightness(0%);
+        }
+
+
+    </style>
+</head>
+
+
+<style>
+    body {
+        background-image: url("../../images/download1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<body>
+    <h1 class="example_class" style="color: aquamarine;"> THE DOM </h1>
+    <p id="some_id" class="example_class" style="font-size: medium;color:red ;display: flexbox;font-size: larger;"> SOME PARAGRAPH </p>
+    <p id="par2" class="example_class1" style="font-size: large;color:black;  display: flexbox;font-size: larger;"> SOME PARAGRAPH </p>
+    <img id = "image1" src="https://i.pinimg.com/474x/b1/19/4f/b1194f6671a741f9b2d52c550324c630.jpg" alt="">
+    <button onclick="changeStyle()"> CLICK ME! </button>
+    <script src="../js/theDom.js"></script>
+</body>
+</html> -->
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +44,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body background="../download3.jpeg" no-repeat; background-repeat="no-repeat"; background-size="cover"; height="100" width="100">
-    <h1 class="example_class"> THE DOM </h1>
-    <p id="some_id" class="example_class" style="font-size: medium;color:red ;display: flexbox;font-size: larger;"> SOME PARAGRAPH </p>
-    <p id="par2" class="example_class1" style="font-size: large;color:black;  display: flexbox;font-size: larger;"> SOME PARAGRAPH </p>
-    <img id = "image1" src="https://i.pinimg.com/474x/b1/19/4f/b1194f6671a741f9b2d52c550324c630.jpg" alt="">
-    <button onclick="changeStyle"> CLICK ME! </button>
-    <script src="../js/theDom.js"></script>
+<body>
+    <h1 id="myH1" class=".headingstyle2">domrecap</h1>
+    <button id="mybutton"onclick="changestyleofH1()">dryfuyg</button>
+    <script src="../js/domrecap.js"></script>
 </body>
+<style>
+    .headingstyle2{
+    font-size: 3cm;
+    padding:10px;
+    color:red;
+    margin:4px;
+    border:20px purple;
+    border-radius:5px;
+    }
+   .headingstyle{
+    font-size: 6cm;
+    padding:8px;
+    color:green;
+    margin:4px;
+    border:20px violet;
+    border-radius:5px;
+    }
+</style>
 </html>

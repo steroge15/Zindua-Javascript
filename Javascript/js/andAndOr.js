@@ -89,6 +89,52 @@ if ( ( maths == 'pass' && english == 'pass' && chemistry == 'pass' && physics ==
 }
 
 
+let isAdmin1 = true;
+let isLoggedIn1 = true;
+
+if (isAdmin && isLoggedIn) {
+  console.log('You have admin privileges and are logged in');
+}
+
+// This example checks if the temperature is greater than 20 degrees Celsius and it's summer (isSummer is true). If both conditions are met, it prints "It's a hot day!".
+
+
+let temperature = 25;
+let isSummer = true;
+
+if (temperature > 20 && isSummer) {
+  console.log('It\'s a hot day!');
+}
+
+
+
+// Here, it checks if the user is logged in (isLoggedIn is true) OR if the user is an admin (isAdmin is true). If either condition is true, it prints "Access granted"
+
+
+let isLoggedIn = false;
+let isAdmin = true;
+
+if (isLoggedIn || isAdmin) {
+  console.log('Access granted');
+}
+
+
+
+// This example combines both AND (&&) and OR (||) operators. It checks if the person is either:
+
+// A senior citizen (age >= 65) AND not a student (!isStudent).
+// OR, if the person is under 18 (age < 18) AND is a student (isStudent).
+// If any of these conditions are true, it prints "You qualify for a special discount"
+
+let age1 = 65;
+let isStudent = false;
+
+if ((age >= 65 && !isStudent) || (age < 18 && isStudent)) {
+  console.log('You qualify for a special discount');
+}
+
+
+
 
 
 

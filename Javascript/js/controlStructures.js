@@ -9,10 +9,18 @@
 }
 
 
-let x = 30;
-if (x < 50) {
-    console.log( 'x is less that 50');
+let a = 30;
+if (a < 50) {
+    console.log( 'a is less that 50');
 } else{
-    console.log('x is not less than 50');
+    console.log('a is not less than 50');
 }
+
+let b = 10;
+if (b > 5) {
+    console.log("b is greater than 5");
+} else {
+    console.log("b is not greater than 5");
+}
+
 
