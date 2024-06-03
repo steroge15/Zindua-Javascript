@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simplecalculator</title>
+    
+</head>
+<body>
+    <div id="calculator">
+        <input id="display">
+        <div id="keys">
+               <div>
+                    <button onclick="appendtodisplay('7')">7</button>
+                    <button onclick="appendtodisplay('8')">8</button>
+                    <button onclick="appendtodisplay('9')">9</button>
+                    <button onclick="appendtodisplay('+')" class="operator">+</button>
+               </div>
+            <div>
+                <button onclick="appendtodisplay('4')">4</button>
+                <button onclick="appendtodisplay('5')">5</button>
+                <button onclick="appendtodisplay('6')">6</button>
+                <button onclick="appendtodisplay('-')" class="operator">-</button>
+            </div>
+            <div>
+                <button onclick="appendtodisplay('1')">1</button>
+                <button onclick="appendtodisplay('2')">2</button>
+                <button onclick="appendtodisplay('3')">3</button>
+                <button onclick="appendtodisplay('*')" class="operator">*</button>
+            </div>
+            <div>
+                <button onclick="appendtodisplay('0')">0</button>
+                <button onclick="appendtodisplay('.')">.</button>
+                <button onclick="cleardisplay()" class="operator">C</button>
+                <button onclick="appendtodisplay('/')" class="operator">/</button>
+                <button onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+    <style>
+        body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(0, 0%, 95%) ;
+}
+#calculator{
+    font-family: cursive;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 600px;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font: size 5rem;
+    text-align: left;
+    border:none ;
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border: radius 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+button.hover{
+    background-color: hsl(0, 0%, 40%);
+}
+.operator{
+    background-color: hsl(35, 100%, 55%);
+}
+.operator.hover{
+    background-color: hsl(35, 100%, 65%);
+}
+    </style>
+ <script src='../js/calculator.js'></script>
+</body>
+</html>
