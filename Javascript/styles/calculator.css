@@ -1,4 +1,4 @@
-/* body{
+body{
     margin: 0;
     display: flex;
     justify-content: center;
@@ -40,4 +40,4 @@ button.hover{
 }
 .operator.hover{
     background-color: hsl(35, 100%, 65%);
-} */
+} 

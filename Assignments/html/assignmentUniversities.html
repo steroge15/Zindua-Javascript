@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Countries</title>
+</head>
+<body>
+    <style>
+        .group-country{
+        border: 5px solid lightgray;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 2rem;
+        background-color: aliceblue;
+        align-items: center;
+        }
+        label{
+            margin-left: 600px;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #myInput{
+            margin-left: 600px;
+            padding: 10px ;
+            border-radius: 2rem;
+            margin-top: 10px;
+        }
+        #countryContent{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .group-country ul, li{
+            text-decoration: none;
+        }
+        button{
+            letter-spacing: 1px;
+            padding: 10px;
+            margin-left: 650px;
+            margin-top: 10px;
+            border-radius: 2rem;
+        }
+    </style>
+    <div class="group-country">
+            <label> Name A Country</label> <br>
+            <input type="text" id="myInput">
+                <br>
+        <button id="myButton">Click</button>
+        <div id="countryContent">
+            <ul>
+                <li>Name</li>
+                <li>Country</li>
+                <li>Province</li>
+                <li><a href="">Webpage</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="../js/assignmentUniversities.js"></script>
+</body>
+</html>
