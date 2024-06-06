@@ -38,3 +38,4 @@ let newCountry = {...country, name:'Canada', population:'50M',continent:'North A
 
 console.log(country)
 console.log(newCountry)
+
