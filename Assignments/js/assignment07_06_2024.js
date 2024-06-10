@@ -125,12 +125,3 @@ class User {
   console.log(user1.checkPassword('newpassword4 56'));   
 
 
-
-
-
-
-
-
-
-
-}
